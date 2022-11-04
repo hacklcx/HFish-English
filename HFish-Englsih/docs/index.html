@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>反制溯源_欺骗防御_主动防御-HFish免费蜜罐平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="keywords" content="反制溯源,欺骗防御,主动防御,HFish免费蜜罐平台">
+    <meta name="description" content="HFish承载了全新的架构理念和实现方案,是一个安全,简单,有效的蜜罐平台,具有反制溯源,欺骗防御,主动防御等功能,永久免费。">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./vue.css">
+    <link rel="shortcut icon" href="#" />
+    <!-- sensorsdata.min.js 改名防止被插件阻止 -->
+    <!-- <script src="./sc.min.js"></script> -->
+    <style type="text/css">
+        .cover-main {
+            color: #ffffff;
+        }
+
+        .cover-main .anchor span {
+            color: #ffffff;
+        }
+
+        section.cover.has-mask .mask {
+            background-color: initial;
+            opacity: .8;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        nav {
+            color: #ffffff;
+        }
+
+        .sticky nav {
+            color: #34495e;
+        }
+
+        section.cover .cover-main>p:last-child a:last-child:hover {
+            --theme-color: #ff5656;
+        }
+
+        section.cover .cover-main>p:last-child a:hover {
+            color: #ff5656;
+        }
+
+        .version {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script>
+        window.$docsify = {
+            name: 'HFish',
+            loadSidebar: true,
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+            },
+            loadNavbar: true,
+            mergeNavbar: true,
+            auto2top: true,
+            subMaxLevel: 3,
+            coverpage: true,
+            themeColor: '#e93636',
+            sidebarDisplayLevel: 0, // set sidebar display level
+            dv: {
+                model: {
+                    version: '3.3.0',
+                }
+            },
+            search: {
+                paths: 'auto',
+                maxAge: 26400000, // 过期时间，单位毫秒，默认一天
+                placeholder: '请输入搜索内容',
+                noData: '找不到结果!',
+                depth: 2
+            },
+            tabs: {
+                persist: true,      // 刷新后是否同步状态
+                sync: true,      // 如果有多个选项卡是否同步变化
+                theme: 'classic', // default
+                tabComments: true,      // default
+                tabHeadings: true       // default
+            },
+            copyCode: {
+                buttonText : '复制',
+                errorText  : '失败',
+                successText: '成功'
+            }
+            // repo: 'https://github.com/hacklcx/HFish',
+        }
+        // var sensors = window['sensorsDataAnalytic201505'];
+        // sensors.init({
+        //     server_url: 'https://trace.threatbook.cn/sa?project=freemium',
+        //     heatmap: { scroll_notice_map: 'not_collect' },
+        //     is_track_single_page: true,
+        //     preset_properties: { search_keyword_baidu: true }
+        // });
+        // sensors.quick('autoTrack');
+        // sensors.use('PageLeave', { heartbeat_interval_time: 5 })
+    </script>
+
+    <script src="./js/docsify.min.js"></script>
+    <!-- plugins -->
+    <script src="./js/search.min.js"></script>
+    <script src="./js/prism-bash.min.js"></script>
+    <script src="./js/prism-markdown.min.js"></script>
+    <script src="./js/docsify-tabs.min.js"></script>
+    <script src="./js/docsify-copy-code.min.js"></script>
+    <script src="./js/docsify-sidebar-collapse.min.js"></script>
+</body>
+
+</html>
