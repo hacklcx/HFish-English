@@ -10,7 +10,7 @@ HFish has more than 40 honeypot environments, free cloud honeynet, highly custom
 
 Honeypot is usually defined as a detection product with lightweight detection capability and low false alarm rate. At the same time, it is also one of the high-quality sources for enterprises to produce local threat intelligence. HFish can help users of small and medium-sized enterprises avoid warning floods in their daily security operations, and increase their threat perception and intelligence production capabilities at a low cost. At present, the strength of the community is constantly helping HFish improve itself and jointly explore the best practice of deception defense.
 
-##### Secure
+##### how it works
 
 HFish is widely used to sense the horizontal movement of lost hosts in office intranet, production environment, cloud intranet and other environments, employee account leakage, scanning and detection behavior, private intelligence production and even internal drills and security awareness training. Various alarm output forms of HFish are combined with state, NDR, XDR or log platforms to greatly expand the detection vision.
 
